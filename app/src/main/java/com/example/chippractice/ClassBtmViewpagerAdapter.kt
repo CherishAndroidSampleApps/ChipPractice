@@ -3,7 +3,6 @@ package com.example.chippractice
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentStatePagerAdapter
-import com.example.androidwithdesign.ClassBtmFirstFragment
 
 class ClassBtmViewpagerAdapter (fm : FragmentManager)
     : FragmentStatePagerAdapter(fm, BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT) {

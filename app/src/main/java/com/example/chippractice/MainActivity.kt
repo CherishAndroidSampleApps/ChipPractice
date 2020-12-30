@@ -3,8 +3,6 @@ package com.example.chippractice
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.ViewGroup
-import androidx.viewpager.widget.ViewPager
-import com.example.androidwithdesign.ClassBtmFirstFragment
 import com.example.chippractice.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
