@@ -11,11 +11,10 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
 
         binding = ActivityMainBinding.inflate(layoutInflater)
         val view = binding.root
-
+        setContentView(view)
 
         btmviewpagerAdapter = ClassBtmViewpagerAdapter(supportFragmentManager)
         btmviewpagerAdapter.fragments = listOf(
@@ -51,7 +50,7 @@ class MainActivity : AppCompatActivity() {
             p.setMargins(4, 0, 4, 0)
             tab.requestLayout()
         }
-        setContentView(view)
+
     }
 
 }
